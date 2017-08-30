@@ -106,4 +106,4 @@ angular.module('angular-electron').service('safeShutdown', ['$q', 'currentWindow
   };
 }]);
 
-})(window.angular, window.nodeRequire, window.process);
+})(window.angular, window.require || window.nodeRequire, window.process);
